@@ -79,10 +79,10 @@
                             <tr>
                                 <th scope="col">NO.</th>
                                 <th scope="col">Nombre</th>
+                                <th scope="col">NO.CUI</th>
                                 <th scope="col">Edad</th>
                                 <th scope="col">Estado civil</th>
                                 <th scope="col">Dirección</th>
-                                <th scope="col">Número de Grupo</th>
                                 <th scope="col" colspan="2">Opciones</th>
                             </tr>
                         </thead>
@@ -95,10 +95,10 @@
                             <tr>
                                 <td scope="row"><?php echo $dato->codigo; ?></td>
                                 <td><?php echo $dato->nombre; ?></td>
+                                <td><?php echo $dato->cui; ?></td>
                                 <td><?php echo $dato->edad; ?></td>
                                 <td><?php echo $dato->estadocivil; ?></td>
                                 <td><?php echo $dato->direccion; ?></td>
-                                <td><?php echo $dato->grupo; ?></td>
                                 <td><a class="text-success" href="editarB.php?codigo=<?php echo $dato->codigo; ?>"><i class="bi bi-pencil-square"></i></a></td>
                                 <td><a onclick="return confirm('Estas seguro de eliminar?');" class="text-danger" href="eliminarB.php?codigo=<?php echo $dato->codigo; ?>"><i class="bi bi-trash"></i></a></td>
                             </tr>
@@ -124,6 +124,10 @@
                         <input type="text" class="form-control" name="txtNombre" autofocus required>
                     </div>
                     <div class="mb-3">
+                        <label class="form-label">NO.CUI: </label>
+                        <input type="number" class="form-control" name="txtCUI" autofocus required>
+                    </div>
+                    <div class="mb-3">
                         <label class="form-label">Edad: </label>
                         <input type="number" class="form-control" name="txtEdad" autofocus required>
                     </div>
@@ -136,10 +140,7 @@
                         <label class="form-label">Dirección: </label>
                         <input type="text" class="form-control" name="txtDireccion" autofocus required>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label">Grupo: </label>
-                        <input type="number" class="form-control" name="txtGrupo" autofocus required>
-                    </div>
+
                     <div class="d-grid">
                         <input type="hidden" name="oculto" value="1">
                         <input type="submit" class="btn btn-primary" value="Registrar">

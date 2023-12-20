@@ -29,6 +29,11 @@
                         value="<?php echo $persona->nombre; ?>">
                     </div>
                     <div class="mb-3">
+                        <label class="form-label">NO.CUI: </label>
+                        <input type="number" class="form-control" name="txtCUI" autofocus required
+                        value="<?php echo $persona->cui; ?>">
+                    </div>
+                    <div class="mb-3">
                         <label class="form-label">Edad: </label>
                         <input type="number" class="form-control" name="txtEdad" autofocus required
                         value="<?php echo $persona->edad; ?>">
@@ -42,11 +47,6 @@
                         <label class="form-label">Dirección: </label>
                         <input type="text" class="form-control" name="txtDireccion" autofocus required
                         value="<?php echo $persona->direccion; ?>">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Grupo: </label>
-                        <input type="number" class="form-control" name="txtGrupo" autofocus required
-                        value="<?php echo $persona->grupo; ?>">
                     </div>
                     <div class="d-grid">
                         <input type="hidden" name="codigo" value="<?php echo $persona->codigo; ?>">

@@ -11,9 +11,9 @@
     $resultado = $sentencia->execute([$codigo]);
 
     if ($resultado === TRUE) {
-        header('Location: inicioB.php?mensaje=eliminado');
+        header('Location: registropersona.php?mensaje=eliminado');
     } else {
-        header('Location: inicioB.php?mensaje=error');
+        header('Location: registropersona.php?mensaje=error');
     }
     
 ?>

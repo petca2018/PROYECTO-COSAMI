@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-12-2023 a las 18:39:12
+-- Tiempo de generación: 20-12-2023 a las 06:17:49
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -30,10 +30,10 @@ SET time_zone = "+00:00";
 CREATE TABLE `persona` (
   `codigo` int(11) NOT NULL,
   `nombre` varchar(250) DEFAULT NULL,
+  `cui` bigint(250) DEFAULT NULL,
   `edad` int(11) DEFAULT NULL,
   `estadocivil` varchar(250) DEFAULT NULL,
-  `direccion` varchar(250) DEFAULT NULL,
-  `grupo` int(11) DEFAULT NULL
+  `direccion` varchar(250) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------

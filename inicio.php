@@ -31,9 +31,9 @@
       </div>
     </div>
     <br>
-    <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded ">
+    <div class=" container col-xs-12 col-sm-6 col-md-6 shadow-lg p-3 mb-5 bg-body-tertiary rounded" >
     <p class="fs-3 align-middle fw-bold align-middle" >REGISTRO DE PERSONAS</p>
-    <p class="fs-4 text-break">Esta herramienta ayudará con el registro de personas digitalmete, evitando tener que hacerlo de forma manual. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+    <p class="fs-4 text-break">Esta página ayudará con el registro de personas digitalmete, evitando tener que hacerlo de forma manual. La información estará almacenada  en una Base de Datos. </p>
     </div>
     
 
