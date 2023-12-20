@@ -1,7 +1,7 @@
 <?php
     //print_r($_POST);
     if(empty($_POST["oculto"]) || empty($_POST["txtNombre"]) || empty($_POST["txtEdad"]) || empty($_POST["txtEcivil"]) || empty($_POST["txtDireccion"])|| empty($_POST["txtGrupo"])){
-        header('Location: inicioB.php?mensaje=falta');
+        header('Location: registropersona.php?mensaje=falta');
         exit();
     }
 
@@ -16,9 +16,9 @@
     $resultado = $sentencia->execute([$nombre, $edad, $ecivil, $direccion, $grupo]);
 
     if ($resultado === TRUE) {
-        header('Location: inicioB.php?mensaje=registrado');
+        header('Location: registropersona.php?mensaje=registrado');
     } else {
-        header('Location: inicioB.php?mensaje=error');
+        header('Location: registropersona.php?mensaje=error');
         exit();
     }
     

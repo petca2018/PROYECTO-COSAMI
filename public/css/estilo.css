@@ -1,21 +1,5 @@
 body {
-    background: #032e5c;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    background: #03070c;
+    background: linear-gradient(to right, #032044, #014979);
   }
   
-  
-  .btn-login {
-    font-size: 0.9rem;
-    letter-spacing: 0.05rem;
-    padding: 0.75rem 1rem;
-  }
-  
-  .btn-google {
-    color: white !important;
-    background-color: #ea4335;
-  }
-  
-  .btn-facebook {
-    color: white !important;
-    background-color: #3b5998;
-  }

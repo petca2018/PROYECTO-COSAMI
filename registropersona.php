@@ -4,10 +4,9 @@
     include_once "clases/conexion.php";
     $sentencia = $bd -> query("select * from persona");
     $persona = $sentencia->fetchAll(PDO::FETCH_OBJ);
-
 ?>
 
-<div class="container mt-5">
+<div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-7">
             <!-- inicio alerta -->
@@ -74,9 +73,9 @@
                 <div class="card-header">
                     Lista de personas
                 </div>
-                <div class="p-4">
+                <div class="table-responsive p-4">
                     <table class="table align-middle">
-                        <thead>
+                        <thead class="table-primary">
                             <tr>
                                 <th scope="col">NO.</th>
                                 <th scope="col">Nombre</th>

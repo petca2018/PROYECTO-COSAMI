@@ -16,6 +16,7 @@ class conexion{
         );
     }
 }
+
 $servidor = 'localhost';
 $usuario = 'root';
 $password = '';

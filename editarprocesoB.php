@@ -1,7 +1,7 @@
 <?php
     print_r($_POST);
     if(!isset($_POST['codigo'])){
-        header('Location: inicioB.php?mensaje=error');
+        header('Location: registropersona.php?mensaje=error');
     }
 
     include 'clases/conexion.php';
@@ -16,9 +16,9 @@
     $resultado = $sentencia->execute([$nombre, $edad, $ecivil, $direccion,$grupo, $codigo]);
 
     if ($resultado === TRUE) {
-        header('Location: inicioB.php?mensaje=editado');
+        header('Location: registropersona.php?mensaje=editado');
     } else {
-        header('Location: inicioB.php?mensaje=error');
+        header('Location: registropersona.php?mensaje=error');
         exit();
     }
     

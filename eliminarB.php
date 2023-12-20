@@ -1,6 +1,6 @@
 <?php 
     if(!isset($_GET['codigo'])){
-        header('Location: inicioB.php?mensaje=error');
+        header('Location: registropersona.php?mensaje=error');
         exit();
     }
 

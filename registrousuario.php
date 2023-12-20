@@ -13,7 +13,7 @@
   <body>
 
   <body>
-  <div class="container w-50">
+  <div class="container col-xs-12 col-sm-6 col-md-8">
     <div class="row">
       <div class="col-lg-10 col-xl-9 mx-auto">
         <div class="card flex-row my-5 border-0 shadow rounded-3 overflow-hidden">
@@ -36,7 +36,7 @@
               </div>
 
               <div class="d-grid mb-2">
-                <button class="btn btn-lg btn-primary btn-login fw-bold text-uppercase" type="submit">REGISTRAR</button>
+                <button class="btn btn-outline-success" type="submit">REGISTRAR</button>
               </div>
 
               <a class="d-block text-center mt-2 small" href="index.php">Si ya tienes cuenta? Inicia sesion</a>
