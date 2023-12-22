@@ -31,8 +31,8 @@
     </div>
     <br>
     <div class=" container col-xs-12 col-sm-6 col-md-6 shadow-lg p-3 mb-5 bg-body-tertiary rounded" >
-    <p class="fs-3 align-middle fw-bold align-middle" >REGISTRO DE PERSONAS</p>
-    <p class="fs-6 text-break">Esta página ayudará con el registro de personas digitalmete, evitando tener que hacerlo de forma manual. La información estará almacenada  en una Base de Datos. </p>
+    <p class="fs-3 align-middle fw-bold align-middle" >REGISTRO DE DATOS</p>
+    <p class="fs-6 text-break">Esta página ayudará con el registro de personas digitalmente, evitando tener que hacerlo de forma manual. La información estará almacenada  en una Base de Datos. </p>
     </div>
     
 
