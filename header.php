@@ -30,6 +30,9 @@
               <a class="nav-link active" aria-current="page" href="registropersona.php">REGISTROS</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="reporte.php">REPORTE</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="informacion.php">INFORMACIÓN</a>
             </li>
             <li class="nav-item dropdown">
